@@ -23,6 +23,8 @@ class AiCompletionApplicationTests {
 
 		chatClient = builder.build();
 
+		assertTrue(chatClient != null);
+
 		answer = chatClient
 				.prompt()
 				.user(question)
