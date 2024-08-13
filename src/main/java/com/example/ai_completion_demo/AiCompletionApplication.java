@@ -20,8 +20,8 @@ public class AiCompletionApplication implements CommandLineRunner
     }
 
     @Override
-    public void run(String... args) throws Exception
-    {
+    public void run(String... args) throws Exception {
+
         String question = "When was Microsoft founded?";
         String answer = null;
 
