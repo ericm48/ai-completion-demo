@@ -1,8 +1,6 @@
 # Simple Spring AI Application with Azure OpenAI
 
-This project contains a simple java app, that will ask a basic question to the Azure OpenAI Service.
-
-The response to the question is from the Azure OpenAI Service.
+This project contains a simple java-spring-boot app that will ask a basic question to the Azure OpenAI Service, and return the answer.
 
 ## Prerequisite
 
