@@ -15,3 +15,9 @@ Basic_Samples/Embeddings/dotnet/csharp/query_rewriting_pack/
 
 Basic_Samples/Embeddings/dotnet/polyglot/query_rewriting_pack/
 Basic_Samples/Datastores/dotnet/csharp/volumes
+*.iml
+.DS_Store
+
+target/
+classes/
+build/

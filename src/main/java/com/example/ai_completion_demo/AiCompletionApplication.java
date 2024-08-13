@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AiCompletionApplication implements CommandLineRunner
 {
-   private final ChatClient chatClient;
+    private final ChatClient chatClient;
 
     public AiCompletionApplication(ChatClient.Builder builder) {
         this.chatClient = builder.build();
@@ -27,7 +27,7 @@ public class AiCompletionApplication implements CommandLineRunner
 
         System.out.println(String.format("\r\nThe Question: %s \r\n \r\n", question));
 
-        System.out.println(String.format("Sending completion prompt to AI service. Wait for it...\r\n"));
+        System.out.println(String.format("Sending completion prompt to AI service. Wait for it..........\r\n"));
 
         answer = this.chatClient
                 .prompt()
@@ -35,7 +35,7 @@ public class AiCompletionApplication implements CommandLineRunner
                 .call()
                 .content();
 
-        System.out.println(String.format("The Answer: %s \r\n", answer));
+        System.out.println(String.format("\r\nThe Answer: %s \r\n", answer));
 
     }
 
