@@ -5,7 +5,6 @@ This project contains a simple java-spring-boot app that will ask a basic questi
 ## Prerequisite
 
 Before using the AI commands, obtain your Azure OpenAI `endpoint` and `api-key` from the Azure OpenAI Service section on [Azure Portal](https://portal.azure.com)
-
 Exporting the environment variables is one way to set these configuration properties.
 
 ```bash
