@@ -1,4 +1,4 @@
-package com.example.ai_completion_demo;
+package com.example.ai.completion;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.boot.CommandLineRunner;
